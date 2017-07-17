@@ -19,6 +19,19 @@ According to a study, if you keep clicking on the first legit link (excluding pr
 This study elimates loops present in the pages. Files included are:
 - wikipedia_crawler.py
 
+## Birthday email program
+
+This code reads a text file of birthdays, and sends that person a predefined general email about the same.
+Edit the __filename__ in the code before using.
+Files included:
+- birthday_email.py
+- dummy_birthdays.txt
+
+#### Instructions for dummy_birthdays.txt
+- It should contain Month followed by people's details on new lines as shown.
+- Whitespaces are okay but seperating the details with ':' is essential.
+- You can exclude month if nobody has a birthday in that month.
+ 
 To run python code:
 ```
 $python file_name.py
