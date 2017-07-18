@@ -27,13 +27,13 @@ This code reads a text file of birthdays, and sends that person a predefined gen
 - First of all insert all of your friend's details in the dummy_birthdays.txt
 - Then change the filename from birthdays.txt to dummy_birthdays.txt in the birthday_email.py file.
 - Then skip to the send_email() function in birthday_email.py and fill up the following:
- -- fromaddr
- -- Inside msg:
-  --- From
-  --- Subject
-  --- Your message
- -- username (email)
- -- password
+-- fromaddr
+-- Inside msg:
+--- From
+--- Subject
+--- Your message
+-- username (email)
+-- password
 
 Files included:
 - birthday_email.py
