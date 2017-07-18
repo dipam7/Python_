@@ -1,4 +1,5 @@
 import datetime
+import smtplib
 
 # edit this variable to change the text file to be used
 BIRTHDAY_FILE = 'birthdays.txt'
@@ -54,18 +55,41 @@ def check_for_birthday():
 	# find if anyone has a birthday today
 	for element in birthdays_in_current_month:
 		if(int(element[0]) == current_day):
-			print('Today\'s date is ' + element[0] + 'th' + ' ' + current_month)
-			print(element[1].upper() + '!!!!!!!' + ' has a birthday today')
-			print('Email him/her on ' + element[2])
+			birthday_person = element[1]
+			birthday_person_email = element[2]
+			send_email(birthday_person, birthday_person_email)
+			#print('Today\'s date is ' + element[0] + 'th' + ' ' + current_month)
+			#print(element[1].upper() + '!!!!!!!' + ' has a birthday today')
+			#print('Email him/her on ' + element[2])
 			has_birthday = 1
 			
 	if has_birthday == 0:
 		print('Nobody was born today :( ')
+		print('Try again, tomorrow')
+		
+def send_email(name, email):
+	fromaddr = 'user@gmail.com' 
+	toaddrs  = email
+	msg = "\r\n".join([
+	  "From: user@gmail.com",
+	  "Subject: Just a message",
+	  "",
+	  "Dear, " + name + "\nYour message here"
+	  
+	  ])
+	username = 'user@gmail.com'
+	password = 'pwd'
+	server = smtplib.SMTP('smtp.gmail.com:587')
+	server.ehlo()
+	server.starttls()
+	server.login(username,password)
+	server.sendmail(fromaddr, toaddrs, msg)
+	server.quit()
 		
 
 		
 sort_birthdays()
-check_for_birthday()		
+check_for_birthday()	
 
 # check the complete dict
-print(birthdays_dict)
+# print(birthdays_dict)
