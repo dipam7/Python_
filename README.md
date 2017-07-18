@@ -24,16 +24,23 @@ This study elimates loops present in the pages. Files included are:
 This code reads a text file of birthdays, and sends that person a predefined general email about the same.
 
 **Things to edit**:
-- First of all insert all of your friend's details in the dummy_birthdays.txt
-- Then change the filename from birthdays.txt to dummy_birthdays.txt in the birthday_email.py file.
-- Then skip to the send_email() function in birthday_email.py and fill up the following:
-* fromaddr
-* Inside msg:
-1. From
-2. Subject
-3. Your message
-* username (email)
-* password
+1. First of all insert all of your friend's details in the dummy_birthdays.txt
+
+2. Then change the filename from birthdays.txt to dummy_birthdays.txt in the birthday_email.py file.
+
+3. Then skip to the send_email() function in birthday_email.py and fill up the following:
+
+- fromaddr
+- Inside msg:
+
+a. From
+
+b. Subject
+
+c. Your message
+
+- username (email)
+- password
 
 Files included:
 - birthday_email.py
