@@ -2,6 +2,17 @@
 
 These are some of the projects I've made while learning python.
 
+There are some more projects that I've made. They run on a tool called [Codeskulptor](http://www.codeskulptor.org/). Check them out in the links below.
+  
+[Guess the number](http://www.codeskulptor.org/#user41_qzaX97GhdVPzjO5_1.py)
+
+[Pong - the game](http://www.codeskulptor.org/#user41_0Viwl5q2e2_2.py)
+
+[Simple task manager](http://www.codeskulptor.org/#user41_HG3EujvYA5_0.py)
+
+[Memory game](http://www.codeskulptor.org/#user41_idXXiTroIzZHL0h.py)
+
+
 ## Vocabulary
 
 This program takes a list of **words** with their **meanings** as input and regularly notifies you with a _random_ word from the list to help you better remember the words. (**NOTE**: Make sure the code and text files are in the same folder.) Files include:
@@ -60,13 +71,3 @@ If you have installed multiple versions of python, then to run a code using pyth
 ```
 $python3 file_name.py
 ```
-
-There are some more projects that I've made. They run on a tool called [Codeskulptor](http://www.codeskulptor.org/). Check them out in the links below.
-  
-[Guess the number](http://www.codeskulptor.org/#user41_qzaX97GhdVPzjO5_1.py)
-
-[Pong - the game](http://www.codeskulptor.org/#user41_0Viwl5q2e2_2.py)
-
-[Simple task manager](http://www.codeskulptor.org/#user41_HG3EujvYA5_0.py)
-
-[Memory game](http://www.codeskulptor.org/#user41_idXXiTroIzZHL0h.py)
