@@ -2,7 +2,7 @@
 
 These are some of the projects I've made while learning python.
 
-There are some more projects that I've made. They run on a tool called [Codeskulptor](http://www.codeskulptor.org/). Check them out in the links below.
+There are some more. They run on a tool called [Codeskulptor](http://www.codeskulptor.org/). Check them out in the links below.
   
 [Guess the number](http://www.codeskulptor.org/#user41_qzaX97GhdVPzjO5_1.py)
 
