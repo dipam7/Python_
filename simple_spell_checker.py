@@ -59,8 +59,6 @@ def check_word(one_word):
         print('Did you mean: ' + check.variants)
 
 
-def give_article_suggestions():
-    pass
 
 
 # test for online articles
@@ -70,8 +68,8 @@ def give_article_suggestions():
 # print(check_text(words))
 
 # test for text files
-file_words = open_file('consider_reading.txt')
-check_text(file_words)
+# file_words = open_file('test.txt')
+# check_text(file_words)
 
 # test for words
 # check_word('peeple')
